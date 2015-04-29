@@ -24,14 +24,26 @@ First complete all exercises from the [**JS Primitives**](https://github.com/sf-
 * Super Challenge: Given an array of friends
 
   ```
-  var friends = [
-                  "larry",
-                  "moe",
-                  "curly",
-                  "huey",
-                  "louie",
-                  "dewey"
-                  ].
+var newArray = [];
+var friends = [
+                "larry",
+                "moe",
+                "curly",
+                "huey",
+                "louie",
+                "dewey"
+                ];
+
+
+for(var i=0;i<friends.length;i++){
+  var index = Math.floor(Math.random() * friends.length);
+newArray.push(friends[index]);
+}
+var y = newArray.join("");
+alert(y);
+console.log(newArray);
+console.log(y);
+
   ```
 
   write a loop to alert them in some random order. 
