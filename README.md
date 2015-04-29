@@ -31,7 +31,7 @@ First complete all exercises from the [**JS Primitives**](https://github.com/sf-
                   "huey",
                   "louie",
                   "dewey"
-                  ].
+                  ]
   ```
 
   write a loop to alert them in some random order. 
