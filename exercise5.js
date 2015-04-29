@@ -57,3 +57,15 @@ function theRiddler() {
     }
   }
 }
+
+// solution D
+function solveTheRiddle() {
+  var sumOfDigits;
+
+  for (var i = 6; i < 100; i = i + 6) {
+      sumOfDigits = Math.floor(i/10) + Math.floor(i%10);
+      if (i % 10 === 2 && sumOfDigits === 9) {
+          console.log("Your num is", i);
+      }
+  }
+}
